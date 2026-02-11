@@ -42,9 +42,13 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #36437ada ;
+
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-section#login>div#imagen {
+section#login>div#imagem {
     display: block;
     background: #020617 url(../imagens/pexels-damir-mijailovic-1921088-4492736.jpg) no-repeat;
     height: 200px;
